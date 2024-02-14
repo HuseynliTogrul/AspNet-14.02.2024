@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\Desktop\\AspNetCoreEmpity\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj": {}
+    "C:\\Users\\toghrulih\\Desktop\\AspNet-14.02.2024\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\Desktop\\AspNetCoreEmpity\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj": {
+    "C:\\Users\\toghrulih\\Desktop\\AspNet-14.02.2024\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\Desktop\\AspNetCoreEmpity\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj",
+        "projectUniqueName": "C:\\Users\\toghrulih\\Desktop\\AspNet-14.02.2024\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj",
         "projectName": "AspNetCoreEmpity",
-        "projectPath": "C:\\Users\\acer\\Desktop\\AspNetCoreEmpity\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj",
-        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\Desktop\\AspNetCoreEmpity\\AspNetCoreEmpity\\obj\\",
+        "projectPath": "C:\\Users\\toghrulih\\Desktop\\AspNet-14.02.2024\\AspNetCoreEmpity\\AspNetCoreEmpity.csproj",
+        "packagesPath": "C:\\Users\\toghrulih\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\toghrulih\\Desktop\\AspNet-14.02.2024\\AspNetCoreEmpity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\toghrulih\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

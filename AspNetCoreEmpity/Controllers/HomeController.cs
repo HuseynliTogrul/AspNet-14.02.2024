@@ -6,9 +6,15 @@ namespace AspNetCoreEmpity.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly DataContext db;
+
+        public HomeController(DataContext db)
+        {
+            this.db = db;
+        }
         public IActionResult Index()
         {
-            var db = new DataContext();
+            //var db = new DataContext();
             var sizes = db.Sizes.ToList();
 
             return Json(sizes);
