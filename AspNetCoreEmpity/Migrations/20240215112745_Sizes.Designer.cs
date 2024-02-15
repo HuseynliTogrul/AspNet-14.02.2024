@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AspNetCoreEmpity.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240213223836_Sizes")]
+    [Migration("20240215112745_Sizes")]
     partial class Sizes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -38,7 +38,7 @@ namespace AspNetCoreEmpity.Migrations
                     b.Property<int?>("CreateBy")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DeletedAt")
+                    b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("DeletedBy")

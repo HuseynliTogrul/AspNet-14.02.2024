@@ -36,7 +36,7 @@ namespace AspNetCoreEmpity.Migrations
                     b.Property<int?>("CreateBy")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DeletedAt")
+                    b.Property<DateTime?>("DeletedAt")
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("DeletedBy")

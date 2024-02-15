@@ -14,7 +14,6 @@ namespace AspNetCoreEmpity.Controllers
         }
         public IActionResult Index()
         {
-            //var db = new DataContext();
             var sizes = db.Sizes.ToList();
 
             return Json(sizes);
