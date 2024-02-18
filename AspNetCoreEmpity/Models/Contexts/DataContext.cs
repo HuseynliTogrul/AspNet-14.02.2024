@@ -19,17 +19,7 @@ namespace AspNetCoreEmpity.Models.Contexts
             modelBuilder.ApplyConfigurationsFromAssembly(currentAssembly);
         }
 
-
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    base.OnConfiguring(optionsBuilder);
-
-        //    //string cString = @"Server=DESKTOP-IIPAPM5\SQLEXPRESS;Database=myDataBase;Trusted_Connection=True;MultipleActiveResultSets=true;";
-
-        //    string cString = "Server=JUPITER16;Database=myDataBase;User Id=shop;Password=query;MultipleActiveResultSets=true;";
-        //    optionsBuilder.UseSqlServer(cString);
-        //}
-
         public DbSet<Size> Sizes { get; set; }
+        public DbSet<Color> Colors { get; set; }
     }
 }
